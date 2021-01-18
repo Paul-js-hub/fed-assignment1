@@ -1,4 +1,4 @@
-// Move all of the object initialization into here
+// Do not add anything to this file
 
 function addObjectSet1() {
   let rect = new fabric.Rect({
@@ -12,7 +12,6 @@ function addObjectSet1() {
     strokeWidth: 2,
     strokeWidthUnscaled: false,
     strokeUniform: false
-      //angle: 45
   })
 
   canvas.add(rect)
@@ -83,7 +82,6 @@ function addObjectSet2() {
     height: 200,
     fill: 'red',
     opacity: 0.5
-      //angle: 20
   })
 
   canvas.add(rect2)
@@ -133,7 +131,6 @@ function addObjectSet3() {
     height: 100,
     fill: 'red',
     opacity: 0.5
-      //angle: 20
   })
 
   canvas.add(rect2)
@@ -145,7 +142,6 @@ function addObjectSet3() {
     height: 100,
     fill: 'blue',
     opacity: 0.5,
-      //angle: 90
   })
 
   canvas.add(rect3)
