@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <script type="text/javascript" src="fabric.min.js"></script>
+    <script type="text/javascript" src="initializeObjects.js"></script>
+    <script type="module">
+      // Import your modules in here and add listeners
+
+      document.querySelector('#spaceHorizontally').addEventListener('click',
+        () => {
+          alert("EDIT ME")
+        }
+      )
+
+      document.querySelector('#spaceVertically').addEventListener('click',
+        () => {
+          alert("EDIT ME")
+        }
+      )
+
+      document.querySelector('#alignLeft').addEventListener('click',
+        () => {
+          alert("EDIT ME")
+        }
+      )
+
+      //document.querySelector('#alignRight').addEventListener('click', (event) => handleClick(event))
+      document.querySelector('#alignRight').addEventListener('click',
+        () => {
+          alert("EDIT ME")
+        }
+      )
+
+      document.querySelector('#alignTop').addEventListener('click',
+        () => {
+          alert("EDIT ME")
+        }
+      )
+
+      document.querySelector('#alignMiddle').addEventListener('click',
+        () => {
+          alert("EDIT ME")
+        }
+      )
+
+      document.querySelector('#alignBottom').addEventListener('click',
+        () => {
+          alert("EDIT ME")
+        }
+      )
+    
+    </script>
+  </head>
+  <body onload="createCanvas()">
+    <div>
+      <select name="objects" onchange="if (this.selectedIndex) clearCanvas(this.value)">
+          <option value="-1" selected="selected">Please select object set to play with!</option>
+          <option value="objects_1">Objects #1</option>
+          <option value="objects_2">Objects #2</option>
+          <option value="objects_3">Objects #3</option>
+        </select>
+      <label>spacing</label><input id="spacing" placeholder="Enter space value" value="10" type="number" style="margin-bottom: 20px;">
+    </div>
+    <button id="spaceHorizontally">Space horizontally</button>
+    <button id="spaceVertically">Space vertically</button>
+
+    <button id="alignLeft">Align left</button>
+    <button id="alignRight">Align right</button>
+
+    <button id="alignTop">Align top</button>
+    <button id="alignMiddle">Align middle</button>
+    <button id="alignBottom">Align bottom</button>
+    <canvas id="c" width="960" height="800"></canvas>
+  <body>
+</html>

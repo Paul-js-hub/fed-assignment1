@@ -1,0 +1,14 @@
+{
+  "name": "assignment1",
+  "version": "1.0.0",
+  "description": "Codeshars front-end developer exercise #1",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "http-server": "node node_modules/http-server/bin/http-server"
+  },
+  "author": "Codeshares",
+  "license": "ISC"
+}
