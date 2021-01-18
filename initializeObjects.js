@@ -10,8 +10,8 @@ function addObjectSet1() {
     opacity: 0.5,
     stroke: 'black',
     strokeWidth: 2,
-    strokeWidthUnscaled: false,
-    strokeUniform: false
+    lockUniScaling: true,
+    strokeUniform: true
   })
 
   canvas.add(rect)
@@ -25,7 +25,8 @@ function addObjectSet1() {
     opacity: 0.5,
     stroke: 'black',
     strokeWidth: 2,
-    strokeWidthUnscaled: null,
+    lockUniScaling: true,
+    strokeUniform: true,
     angle: 45
   })
 
@@ -41,7 +42,8 @@ function addObjectSet1() {
     angle: 90,
     stroke: 'black',
     strokeWidth: 2,
-    strokeWidthUnscaled: null        
+    lockUniScaling: true,
+    strokeUniform: true
   })
   
   canvas.add(rect3)
@@ -55,7 +57,8 @@ function addObjectSet1() {
     fill: 'orange',
     stroke: 'black',
     strokeWidth: 2,
-    strokeWidthUnscaled: null,
+    lockUniScaling: true,
+    strokeUniform: true,
     angle: -10        
   })
   canvas.add(rect4)
