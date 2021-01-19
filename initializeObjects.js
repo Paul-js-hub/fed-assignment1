@@ -3,6 +3,103 @@
 function addObjectSet1() {
   let rect = new fabric.Rect({
     left: 100,
+    top: 50,
+    width: 50,
+    height: 100,
+    fill: 'green',
+    opacity: 0.5
+  })
+
+  canvas.add(rect)
+
+  let rect2 = new fabric.Rect({
+    left: 220,
+    top: 50,
+    width: 50,
+    height: 100,
+    fill: 'red',
+    opacity: 0.5
+  })
+
+  canvas.add(rect2)
+
+  let rect3 = new fabric.Rect({
+    left: 300,
+    top: 50,
+    width: 50,
+    height: 100,
+    fill: 'blue',
+    opacity: 0.5,
+  })
+
+  canvas.add(rect3)
+
+  let rect4 = new fabric.Rect({
+    left: 460,
+    top: 50,
+    width: 50,
+    height: 100,
+    opacity: 0.5,
+    fill: 'orange'
+  })
+
+  canvas.add(rect4)
+
+  canvas.renderAll()
+}
+
+function addObjectSet2() {
+  let rect = new fabric.Rect({
+    left: 100,
+    top: 50,
+    width: 50,
+    height: 100,
+    fill: 'green',
+    opacity: 0.5
+  })
+
+  canvas.add(rect)
+
+  let rect2 = new fabric.Rect({
+    left: 200,
+    top: 100,
+    width: 50,
+    height: 200,
+    fill: 'red',
+    opacity: 0.5
+  })
+
+  canvas.add(rect2)
+
+  let rect3 = new fabric.Rect({
+    left: 400,
+    top: 130,
+    width: 50,
+    height: 100,
+    fill: 'blue',
+    opacity: 0.5,
+    angle: 90
+  })
+
+  canvas.add(rect3)
+
+  let rect4 = new fabric.Rect({
+    left: 450,
+    top: 50,
+    width: 50,
+    height: 100,
+    opacity: 0.5,
+    fill: 'orange'
+  })
+
+  canvas.add(rect4)
+
+  canvas.renderAll()
+}
+
+function addObjectSet3() {
+  let rect = new fabric.Rect({
+    left: 100,
     top: 100,
     width: 50,
     height: 100,
@@ -65,104 +162,6 @@ function addObjectSet1() {
 
   canvas.renderAll()
 }
-
-function addObjectSet2() {
-  let rect = new fabric.Rect({
-    left: 100,
-    top: 50,
-    width: 50,
-    height: 100,
-    fill: 'green',
-    opacity: 0.5
-  })
-
-  canvas.add(rect)
-
-  let rect2 = new fabric.Rect({
-    left: 200,
-    top: 100,
-    width: 50,
-    height: 200,
-    fill: 'red',
-    opacity: 0.5
-  })
-
-  canvas.add(rect2)
-
-  let rect3 = new fabric.Rect({
-    left: 400,
-    top: 130,
-    width: 50,
-    height: 100,
-    fill: 'blue',
-    opacity: 0.5,
-    angle: 90
-  })
-
-  canvas.add(rect3)
-
-  let rect4 = new fabric.Rect({
-    left: 450,
-    top: 50,
-    width: 50,
-    height: 100,
-    opacity: 0.5,
-    fill: 'orange'
-  })
-
-  canvas.add(rect4)
-
-  canvas.renderAll()
-}
-
-function addObjectSet3() {
-  let rect = new fabric.Rect({
-    left: 100,
-    top: 50,
-    width: 50,
-    height: 100,
-    fill: 'green',
-    opacity: 0.5
-  })
-
-  canvas.add(rect)
-
-  let rect2 = new fabric.Rect({
-    left: 220,
-    top: 50,
-    width: 50,
-    height: 100,
-    fill: 'red',
-    opacity: 0.5
-  })
-
-  canvas.add(rect2)
-
-  let rect3 = new fabric.Rect({
-    left: 300,
-    top: 50,
-    width: 50,
-    height: 100,
-    fill: 'blue',
-    opacity: 0.5,
-  })
-
-  canvas.add(rect3)
-
-  let rect4 = new fabric.Rect({
-    left: 460,
-    top: 50,
-    width: 50,
-    height: 100,
-    opacity: 0.5,
-    fill: 'orange'
-  })
-
-  canvas.add(rect4)
-
-  canvas.renderAll()
-}
-
 
 function createCanvas() {
   this.canvas = new fabric.Canvas('c')
