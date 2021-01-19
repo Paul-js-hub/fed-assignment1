@@ -49,7 +49,7 @@ Please read the value for intended spacing from the input box with id: "spacing"
 ### Editing exercises
 After cloning and getting the server to run you can proceed to edit index.html. Please do not touch initializeObjects.js which contains the example sets of canvas objects.
 
-Add your code under the following line in the index.html
+Add your import(s) under the following line in the index.html. Then write your JavaScript into separate files except what is needed to handle the clicks.
 
 ```
 // Add import(s) for your module(s) to here and modify event listeners
