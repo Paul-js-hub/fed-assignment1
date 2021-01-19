@@ -29,6 +29,8 @@ https://github.com/fabricjs/fabric.js/wiki/When-to-call-setCoords
 You can also see the video of the intended functionality.
 
 #### Spacing of the selected objects
+Please read the value for intended spacing from the input box with id: "spacing". The spacing will be the same for horizontal and vertical spacing.
+
 * Space objects horizontally
 * Space objects vertically 
 
