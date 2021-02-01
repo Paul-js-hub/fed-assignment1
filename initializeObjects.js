@@ -5,7 +5,7 @@ function addObjectSet1() {
     left: 100,
     top: 50,
     width: 50,
-    height: 100,
+    height: 120,
     fill: 'green',
     opacity: 0.5
   })
@@ -16,7 +16,7 @@ function addObjectSet1() {
     left: 220,
     top: 50,
     width: 50,
-    height: 100,
+    height: 80,
     fill: 'red',
     opacity: 0.5
   })
