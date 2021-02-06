@@ -1,7 +1,8 @@
 # Codeshares exercise #1
 
 ## General guidelines
-1. After cloning start to work in your own repository. So import this repository into your own private repository in GitLab (or GitHub). Add repository access to the following user accounts: vkoivula and aepgit. Please do not fork this project. 
+1. After cloning start to work in your own repository. So import this repository into your own private repository in GitLab (or GitHub). Add repository access to the following user accounts: vkoivula and aepgit. Please do not fork this project.
+    > Note that that at least with GitLab, guest access to a private repository is not enough! Please see https://docs.gitlab.com/ee/user/permissions.html
 
 1. If you take code examples from Stack Overflow or other places. Please add the URL into the comments.  Otherwise, we do not appreciate. 
 
