@@ -36,7 +36,7 @@ Please read the value for intended spacing from the input box with id: "spacing"
 * Space objects vertically 
 
 #### Align selected objects
-Please note that that the objects need to be aligned in relation to the objects selected. Not to the edges of the canvas. Please see the video I have linked.
+Please note that that the objects need to be aligned in relation to the objects selected. _Not to the edges of the canvas!_ Please see the video I have linked.
 * **Align left**
   *Aligns objects to the left edge of the leftmost object edge on the x-axis*
 * **Align right**
