@@ -65,3 +65,15 @@ $ cd fed-assignment1
 $ npm install
 $ npm run http-server
 ```
+
+## General guidelines for the project
+1. After cloning, start to work in your own repository. So import this repository into your private repository in GitLab (or GitHub). Add repository access to my account `vkoivula`. Please do not fork this project.
+    > Note that that at least with GitLab, guest access to a private repository is not enough! Please see https://docs.gitlab.com/ee/user/permissions.html
+
+1. If you take code examples from Stack Overflow or other places. Please add the URL into the comments.  Otherwise, we do not appreciate it.
+
+1. If you are unable to complete exercises fully, commit the code you have done. Comment out or otherwise disable parts that are not working and are causing your code to crash.
+
+1. We should be able to run the exercise with just one command. The procedure is described more closely in each exercise.
+
+_**Please test your submission by cloning it into a new folder before sending it to us. Make sure it is working as intended, and for example, you are not relying on any files you have set into .gitignore.**_
