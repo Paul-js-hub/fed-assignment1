@@ -20,6 +20,7 @@
       document.querySelector('#alignLeft').addEventListener('click',
         () => {
           alert("EDIT ME")
+          alignLeft();
         }
       )
 
@@ -27,27 +28,31 @@
       document.querySelector('#alignRight').addEventListener('click',
         () => {
           alert("EDIT ME")
+          alignRight();
         }
       )
 
       document.querySelector('#alignTop').addEventListener('click',
         () => {
           alert("EDIT ME")
+          alignTop();
         }
       )
 
       document.querySelector('#alignMiddle').addEventListener('click',
         () => {
           alert("EDIT ME")
+          alignMiddle();
         }
       )
 
       document.querySelector('#alignBottom').addEventListener('click',
         () => {
           alert("EDIT ME")
+          alignBottom();
         }
       )
-    
+
     </script>
   </head>
   <body onload="createCanvas()">
@@ -60,15 +65,16 @@
         </select>
       <label>spacing</label><input id="spacing" value="10" type="number" style="margin-bottom: 20px;">
     </div>
-    <button id="spaceHorizontally">Space horizontally</button>
-    <button id="spaceVertically">Space vertically</button>
+    <button id="spaceHorizontally" data-action-type="horizontally">Space horizontally</button>
+    <button id="spaceVertically" data-action-type="vertically">Space vertically</button>
 
-    <button id="alignLeft">Align left</button>
-    <button id="alignRight">Align right</button>
+    <button id="alignLeft" data-action-type="left">Align left</button>
+    <button id="alignRight" data-action-type="right">Align right</button>
 
-    <button id="alignTop">Align top</button>
-    <button id="alignMiddle">Align middle</button>
-    <button id="alignBottom">Align bottom</button>
+    <button id="alignTop" data-action-type="top">Align top</button>
+    <button id="alignMiddle" data-action-type="middle">Align middle</button>
+    <button id="alignBottom" data-action-type="bottom">Align bottom</button>
     <canvas id="c" width="960" height="800"></canvas>
+    <script src="index.js"></script>
   <body>
 </html>
